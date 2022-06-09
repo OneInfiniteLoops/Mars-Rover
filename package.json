@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "url": "https://github.com/OneInfiniteLoops/Mars-Rover/issues"
   },
   "homepage": "https://github.com/OneInfiniteLoops/Mars-Rover#readme",
-  "devDependencies": {
-    "jest": "^28.1.1"
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
   }
 }
